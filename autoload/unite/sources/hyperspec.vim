@@ -9,7 +9,7 @@ let s:unite_source = {
 
 function! s:unite_source.hooks.on_init(args, context)
   if exists('g:unite_hyperspec_base_dir')
-    let s:hyperspec_base_dir = g:unite_hyperspec_base_dir
+    let s:hyperspec_base_dir = expand(g:unite_hyperspec_base_dir)
   else
     let s:hyperspec_base_dir = "/usr/share/doc/hyperspec/"
   endif
