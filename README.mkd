@@ -1,0 +1,9 @@
+#Unite-hyperspec
+ Unite source for lookup hyperspec contents.
+
+##How to use
+
+        :Unite hyperspec
+
+##Requirements
+        This source depends on [vimproc](https://github.com/Shougo/vimproc). Please install it first.
